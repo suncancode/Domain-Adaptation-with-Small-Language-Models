@@ -1,0 +1,62 @@
+[
+  {
+    "question_id": "G1",
+    "question": "What role do the witches play in Macbeth?",
+    "expected_focus": "The witches trigger Macbeth's ambition through prophecy and represent supernatural evil and moral confusion.",
+    "type": "concept_explanation"
+  },
+  {
+    "question_id": "G2",
+    "question": "How does Lady Macbeth influence Macbeth's decision to kill Duncan?",
+    "expected_focus": "Lady Macbeth questions his manhood, calls him a coward, and pushes him to act despite his hesitation.",
+    "type": "contextual_qa"
+  },
+  {
+    "question_id": "G3",
+    "question": "What happens to Romeo and Juliet at the end of the play?",
+    "expected_focus": "Both die — Romeo drinks poison believing Juliet is dead, Juliet wakes and stabs herself. Their deaths end the feud.",
+    "type": "contextual_qa"
+  },
+  {
+    "question_id": "G4",
+    "question": "Who is Ophelia and what is her relationship with Hamlet?",
+    "expected_focus": "Ophelia is Polonius's daughter and Hamlet's love interest. She goes mad after Hamlet rejects her and her father is killed.",
+    "type": "concept_explanation"
+  },
+  {
+    "question_id": "G5",
+    "question": "Write a short Shakespearean-style speech from Macbeth after he sees Banquo's ghost.",
+    "expected_focus": "Creative stylised output showing Macbeth's guilt and fear in Shakespearean language.",
+    "type": "stylised_generation"
+  },
+  {
+    "question_id": "G6",
+    "question": "What is the significance of the ghost in Hamlet?",
+    "expected_focus": "The ghost of Hamlet's father reveals the murder by Claudius and demands revenge, setting the entire plot in motion.",
+    "type": "concept_explanation"
+  },
+  {
+    "question_id": "G7",
+    "question": "Why does Romeo kill Tybalt?",
+    "expected_focus": "Tybalt kills Mercutio, Romeo's best friend. Romeo kills Tybalt in rage and grief, which leads to his banishment.",
+    "type": "contextual_qa"
+  },
+  {
+    "question_id": "G8",
+    "question": "How does Macbeth change from the beginning to the end of the play?",
+    "expected_focus": "Macbeth starts as a loyal, brave soldier but becomes a paranoid, ruthless tyrant consumed by ambition and guilt.",
+    "type": "contextual_qa"
+  },
+  {
+    "question_id": "G9",
+    "question": "What does the dagger vision mean when Macbeth sees it before killing Duncan?",
+    "expected_focus": "The floating dagger is a hallucination representing Macbeth's inner conflict and guilt before committing murder.",
+    "type": "contextual_qa"
+  },
+  {
+    "question_id": "G10",
+    "question": "Write a short Shakespearean-style response from Romeo when he first sees Juliet.",
+    "expected_focus": "Creative stylised output capturing Romeo's immediate love and wonder in Shakespearean language.",
+    "type": "stylised_generation"
+  }
+]

@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment / secrets
+.env
+.venv/
+venv/
+
+# Generated index files — rebuild with: python src/build_index.py
+data/index/
+
+# Generated evaluation output — rebuild with: python src/evaluate.py
+results/evaluation_results.csv
+results/*.npy
+results/*.pkl
+results/*.jsonl
+
+# Raw data folder (If )
+data/raw/*
+!data/raw/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+ 
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+ 
+# Jupyter
+.ipynb_checkpoints/
