@@ -121,7 +121,7 @@ def create_scene_chunks(records: List[Record]) -> List[Chunk]:
             "scene_summary": record.get("scene_summary", ""),
             "keywords":     record.get("keywords", []),
             "text":         enriched,          # ← used for embedding
-            "raw_text":     record.get("text", enriched),  # ← used for display
+            "raw_text":     _clean_text(record.get("text", "")),  # ← used for display
             "metadata":     record,
         }
         chunks.append(chunk)
@@ -149,7 +149,7 @@ def create_utterance_chunks(records: List[Record]) -> List[Chunk]:
         if speaker == "STAGE_DIRECTION":
             continue
 
-        text = record.get("text", "").strip()
+        text = _clean_text(record.get("text", "")).strip()
         if not text:
             continue
 
