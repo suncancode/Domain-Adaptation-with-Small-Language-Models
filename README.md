@@ -1,5 +1,5 @@
 # Shakespeare-Aware RAG System
-## CSCI433/933 Assignment 2 — Domain Adaptation with Small Language Models
+## Domain Adaptation with Small Language Models
 
 A Retrieval-Augmented Generation (RAG) system that enables beginners to ask
 questions about Shakespeare's *Hamlet*, *Macbeth*, and *Romeo and Juliet*.
